@@ -1,0 +1,25 @@
+{
+    "compilerOptions": {
+        "alwaysStrict" : true,
+        "baseUrl": "src",
+        "jsx": "react",
+        "module": "commonjs",
+        "noImplicitAny": true,
+        "noUnusedLocals": true,
+        "noUnusedParameters": true,
+        "removeComments": true,
+        "strictNullChecks": true,
+        "target": "es6"
+    },
+    "awesomeTypescriptLoaderOptions": {
+        "useBabel": true
+    },
+    "exclude": [
+        "node_modules"
+    ],
+    "include": [
+        "src/**/*.ts",
+        "src/**/*.tsx",
+        "src/**/*.d.ts"
+    ]
+}
